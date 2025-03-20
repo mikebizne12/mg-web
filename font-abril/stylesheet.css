@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Abril Display';
+  src: url('AbrilDisplay-Regular.woff2') format('woff2'),
+    url('AbrilDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Abril Display';
+}
+
+
+.font-abril{
+  font-family: 'Abril Display';
+}
