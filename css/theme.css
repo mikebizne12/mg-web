@@ -34,6 +34,7 @@ button.download {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 900px;
+  background-position: center center;
 }
 
 .masthead-heading {
