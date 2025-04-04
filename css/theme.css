@@ -9,7 +9,11 @@
 }
 
 .font-xl {
-  font-size: 120px;
+  font-size: 80px;
+
+  @media (min-width: 992px) {
+    font-size: 120px;
+  }
 }
 
 .navbar-brand {
@@ -46,7 +50,18 @@ button.download {
 }
 
 .about .logo-black {
-  width: 80px;
+  width: 40px;
+  @media (min-width: 576px) {
+    width: 80px;
+  }
+}
+
+
+.power .logo-black {
+  width: 40px;
+  @media (min-width: 576px) {
+    width: 80px;
+  }
 }
 
 .swiper-scrollbar {
@@ -122,7 +137,7 @@ img.power {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
- 
+
 .print h2 {
   margin-bottom: 100px;
 }
@@ -155,16 +170,24 @@ img.power {
   /* height: 35px; */
   opacity: 1;
 }
-.audience-content{
+.audience-content {
   margin-block: 60px;
   padding-block: 40px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
 
-
-.influence-content{
+.influence-content {
   margin-bottom: 60px;
-  padding-block: 40px; 
+  padding-block: 40px;
   border-bottom: 1px solid #000;
+}
+
+.statistics{
+  gap: 30px;
+
+  @media (min-width: 992px) {
+    gap: 0;
+  }
+
 }
